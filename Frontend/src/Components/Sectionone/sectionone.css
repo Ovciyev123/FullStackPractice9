@@ -1,0 +1,33 @@
+.sectionone{
+
+    background-image: url("https://preview.colorlib.com/theme/banker/images/hero_2.jpg.webp");
+    height: 130vh;
+    background-size: cover;
+    background-position: 50% 100%;
+    opacity: 0.8;
+    position: relative;
+  
+  
+}
+
+.onetexts{
+
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+}
+
+.onetexts h1{
+
+    font-size: 60px;
+    color: rgb(75, 70, 70);
+    text-align: center;
+}
+
+.onetexts p{
+
+    font-size: 20px;
+    color: rgb(75, 70, 70);
+    text-align: center;
+}

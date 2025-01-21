@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { FaHeart, FaTrash } from 'react-icons/fa'
 import { useNavigate, useParams } from 'react-router'
 import { FavoritesContext } from '../../Context/Favoritescontext'
+import "./details.css"
 
 function Details() {
 
@@ -49,15 +50,15 @@ function Details() {
         <>
             <div className="detailspage">
                 <h1>Details User</h1>
-                <div className="datailscard">
+                <div className="detailscard">
 
                     <div class="col">
                         <div class="card">
                             <img src={data.image} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <h3>{data.name}</h3>
-                                <h4>{data.job}</h4>
-                                <h3>{data.salary}</h3>
+                                <h3>Name:{data.name}</h3>
+                                <h4>Job:{data.job}</h4>
+                                <h3>Salary:{data.salary} $</h3>
                             </div>
                             <div className="favoritebtn">
                                 <button className='btn btn-danger' onClick={() => handledelfav(data._id)}><FaTrash /></button>

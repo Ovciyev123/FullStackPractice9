@@ -2,7 +2,8 @@ import Adduser from "../Pages/Adduser/Adduser";
 import Details from "../Pages/Details/Details";
 import Favorites from "../Pages/Favorites/Favorites";
 import Home from "../Pages/Home/Home";
-import UserRoot from "../Pages/UserRoot";
+import Userroots from "../Pages/UserRoot";
+
 
 
 
@@ -13,7 +14,7 @@ import UserRoot from "../Pages/UserRoot";
 let ROUTES = [{
 
     path: "/",
-    element: <UserRoot />,
+    element: <Userroots />,
     children: [{
 
         path: "/",

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./sectionsix.css"
 
 function Sectionsix() {
   return (
@@ -6,7 +7,8 @@ function Sectionsix() {
     <div className="sectionsix">
         <h1>PRICING</h1>
         <div className="sectionsix-cards">
-            <div className="sectionsix-card"><h2>Premium</h2>
+            <div className="sectionsix-card">
+              <h2>Premium</h2>
             <h1>$200 <span>/ year</span></h1>
             <p>Officia quaerat eaque neque</p>
             <p>Possimus aut consequuntur incidunt</p>

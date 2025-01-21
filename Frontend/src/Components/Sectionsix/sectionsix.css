@@ -1,0 +1,56 @@
+.sectionsix h1{
+
+color: orange;
+text-align: center;
+}
+
+.sectionsix{
+    background-color: #F8F9FA;
+    padding: 10px 0px 100px;
+}
+
+.sectionsix-cards{
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.sectionsix-card{
+
+ 
+    width: 26%;
+    box-shadow: 0px 0px 8px 8px rgb(190, 190, 190);
+    padding: 20px 30px;
+}
+
+.sectionsix-card p{
+
+    text-align: start ;
+    font-size: 18px;
+    color: gray;
+}
+
+.sectionsix-card h2{
+
+    text-align: center;
+}
+
+.sectionsix-card span{
+
+    font-size: 15px;
+    color: gray;
+}
+
+.sectionsix-card button{
+
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    background-color: orange;
+    border-radius: 25px;
+    margin-left: 60px;
+   
+}

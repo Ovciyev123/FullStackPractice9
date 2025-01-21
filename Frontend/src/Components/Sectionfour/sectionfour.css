@@ -1,0 +1,127 @@
+.sectionfour h2{
+
+    text-align: center;
+    color: orange;
+
+}
+
+.sectionfour p{
+
+    color: gray;
+    font-size: 23px;
+}
+
+.formfour{
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.formfour input{
+
+    border: 2px solid rgb(51, 110, 134);
+    outline: 1px solid rgb(51, 110, 134);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.formfour button{
+
+    border: none;
+    background-color:rgb(51, 110, 134) ;
+    color: white;
+    border-radius: 15px;
+    padding: 7px 15px;
+}
+
+.formfour label{
+
+    font-size: 20px;
+    color:rgb(51, 110, 134) ;
+}
+
+.selectfour{
+
+    width: 200px;
+    padding: 5px;
+    border: 1px solid rgb(17, 82, 17);
+    outline:1px solid rgb(17, 82, 17);
+    border-radius: 15px;
+    color: rgb(17, 82, 17) ;
+}
+
+.sortseacrh{
+
+    width: 10%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 20px auto;
+}
+
+.sectionfour-cards{
+width: 90%;
+margin: 10px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.sectionfour-card{
+
+    width: 22%;
+    height: 70vh;
+    border: 2px solid rgb(46, 113, 139);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0px;
+    border-radius: 25px;
+    background-color: rgb(224, 234, 238);
+
+}
+
+.sectionfour-card img{
+
+width: 75%;
+height: 30vh;
+border-radius: 25px;
+}
+
+.four-btn{
+
+    display: flex;
+
+    gap: 20px;
+}
+
+.trash{
+
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(144, 34, 34);
+}
+
+.heart{
+
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(31, 94, 31);
+}
+
+.info{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(37, 84, 103);
+
+}

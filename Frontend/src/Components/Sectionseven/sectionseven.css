@@ -1,0 +1,60 @@
+.sectionseven{
+
+    padding: 100px 0px;
+}
+
+
+
+.sectionseven-cards{
+
+    width: 80%;
+    margin: 10px auto;
+
+}
+
+.sectionseven-card{
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.seven-texts{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionseven-card img{
+
+    width: 550px;
+    height: 350px;
+}
+
+
+.seven-text{
+
+    width: 55%;
+    display: flex;
+    gap: 20px;
+}
+
+.seven-text p{
+
+    text-align: start;
+}
+
+.seven-text button{
+
+    border: none;
+    background-color: white;
+    color: orange;
+    font-size: 18px;
+}
+
+.seven-icons{
+
+    font-size: 40px;
+    color: orange;
+}

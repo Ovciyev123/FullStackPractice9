@@ -3,6 +3,7 @@ import { FavoritesContext } from '../../Context/Favoritescontext'
 import { FaInfo, FaTrash } from 'react-icons/fa'
 import { Link } from 'react-router'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./favorites.css"
 
 function Favorites() {
 
@@ -23,11 +24,11 @@ function Favorites() {
     {
         favorites.length==0 ?(
 
-            <h1>Sizin Wishlistiniz Bosdur</h1>
+            <h1 className='h1'>Sizin Wishlistiniz Boşdur</h1>
         )
         :(
 <div className="favoritessec">
-    <h1>Favorites</h1>
+    <h1 >Favorites</h1>
     
     <div class="row row-cols-1 row-cols-md-3 g-4">
   {
@@ -37,9 +38,9 @@ function Favorites() {
     <div class="card">
       <img src={favorite.image} class="card-img-top" alt="..."/>
       <div class="card-body">
-       <h3>{favorite.name}</h3>
-       <h4>{favorite.job}</h4>
-       <h3>{favorite.salary}</h3>
+       <h3>Name:{favorite.name}</h3>
+       <h4>Job:{favorite.job}</h4>
+       <h3>Salary:{favorite.salary} $</h3>
       </div>
       <div className="favoritebtn">
         <button className='btn btn-danger' onClick={()=>handlefav(favorite._id)}><FaTrash/></button>

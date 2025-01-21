@@ -1,0 +1,53 @@
+.adduser .formadd{
+
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    border: 2px solid rgb(49, 122, 150);
+    margin: 20px auto 50px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.adduser .formadd button{
+
+    width: 100px;
+}
+
+.formh1{
+
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(19, 77, 100);
+}
+
+.adduser .formadd .field{
+
+    border-radius: 15px;
+    border: 1px solid rgb(40, 99, 122);
+    padding: 5px 0px 5px 10px;
+}
+
+ .table{
+
+    width: 50% !important;
+    margin: 40px auto;
+}
+
+.table tbody th img{
+
+    width: 100px;
+    height: 100px;
+   
+}
+
+.table .tdbtn .btn-primary{
+
+   margin-left: 20px;
+}
+
+.table .tdbtn .btn-success{
+
+    margin-left: 20px;
+}

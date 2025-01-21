@@ -1,0 +1,37 @@
+.detailspage h1{
+
+    
+    padding: 10px 20px;
+    border: 1px solid rgb(27, 80, 101);
+    border-radius: 15px;
+    width:300px;
+    margin: 10px auto 50px;
+    text-align: center;
+}
+
+.detailspage{
+
+    padding: 50px 0px 100px;
+}
+
+.detailscard .col {
+
+    width: 26%;
+    margin: 0 auto;
+}
+
+
+
+.detailscard .col .card img{
+
+    width: 70%;
+    height: 50vh;
+    border-radius: 15px;
+}
+.detailscard .col .card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}

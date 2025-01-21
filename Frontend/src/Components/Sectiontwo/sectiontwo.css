@@ -1,0 +1,92 @@
+.toptwo-cards{
+
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.toptwo-card img{
+    
+    width: 100px;
+    height: 100px;
+}
+
+.toptwo-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toptwo-card p{
+
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+
+.twobottom-cards{
+
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.twobottom-card{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.twobottom-card img{
+
+    width: 550px;
+    height: 450px;
+}
+
+.twobottom-texts{
+
+    width: 35%;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    
+    
+}
+
+.twobottom-texts p{
+
+    color: gray;
+    font-size: 18px;
+   
+}
+.twobottom-input{
+
+    display: flex;
+    gap: 20px;
+}
+
+.twobottom-input input{
+
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 10px 40px 10px 20px;
+    outline:none;
+  
+}
+
+.twobottom-input button{
+    
+    border: 1px solid orange;
+    border-radius: 25px;
+    color: white;
+    background-color: orange;
+    padding: 10px 40px 10px 20px;
+}

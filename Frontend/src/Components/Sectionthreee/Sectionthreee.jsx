@@ -1,11 +1,12 @@
 import React from 'react'
+import "./sectionthree.css"
 
 function Sectionthreee() {
     return (
         <>
             <div className="sectionthree">
                 <h1>About Us</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque <br /> tempora reiciendis.</p>
                 <div className="sectionthree-cards">
                     <div className="sectionthree-card">
                         <img src="https://preview.colorlib.com/theme/banker/images/hero_1.jpg" alt="" />

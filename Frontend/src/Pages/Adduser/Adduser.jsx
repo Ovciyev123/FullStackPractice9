@@ -5,6 +5,7 @@ import axios from 'axios';
 import { Link } from 'react-router';
 import { FaHeart, FaInfo, FaTrash } from 'react-icons/fa';
 import { FavoritesContext } from '../../Context/Favoritescontext';
+import "./adduser.css"
 
 function Adduser() {
 
@@ -69,7 +70,7 @@ const SignupSchema = Yup.object().shape({
   return (
     <>
     <div className="adduser">
-    <h1>Signup</h1>
+    <h1 className='formh1'>Add User</h1>
     <Formik
       initialValues={{
         name: '',
@@ -85,31 +86,31 @@ const SignupSchema = Yup.object().shape({
       }}
     >
       {({ errors, touched }) => (
-        <Form>
+        <Form className='formadd'>
           <label htmlFor="name">Name</label>
-          <Field name="name" />
+          <Field className="field"  name="name" />
           {errors.name && touched.name ? (
             <div>{errors.name}</div>
           ) : null}
           <label htmlFor="job">Job</label>
-          <Field name="job" />
+          <Field className="field"  name="job" />
           {errors.job && touched.job ? (
             <div>{errors.job}</div>
           ) : null}
           <label htmlFor="image">Image</label>
-          <Field name="image" />
+          <Field  className="field" name="image" />
           {errors.image && touched.image ? (
             <div>{errors.image}</div>
           ) : null}
           <label htmlFor="salary">Salary</label>
-          <Field name="salary" type="number" />
+          <Field  className="field" name="salary" type="number" />
           {errors.salary && touched.salary ? <div>{errors.salary}</div> : null}
           <button className='btn btn-primary' type="submit">Add</button>
         </Form>
       )}
     </Formik>
     </div>
-    <table class="table table-bordered table-light">
+    <table class="table table-bordered table-light table-hover">
   <thead>
     <tr>
       <th scope="col">Image</th>
@@ -126,8 +127,8 @@ const SignupSchema = Yup.object().shape({
       <th scope="row"><img src={data1.image} alt="" /></th>
       <td>{data1.name}</td>
       <td>{data1.job}</td>
-      <td>{data1.salary}</td>
-      <td>
+      <td>{data1.salary} $</td>
+      <td className='tdbtn'>
         <button onClick={()=>handledata1(data1._id)} className='btn btn-danger'><FaTrash/></button>
         <Link to={`/${data1._id}`}><button className='btn btn-primary'><FaInfo/></button></Link>
         <button onClick={()=>Favorites(data1)} className='btn btn-success'><FaHeart/></button>

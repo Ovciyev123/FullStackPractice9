@@ -3,7 +3,7 @@ import Usernavbar from '../Components/Usernavbar/Usernavbar'
 import { Outlet } from 'react-router'
 import Userfooter from '../Components/Userfooter/Userfooter'
 
-function UserRoot() {
+function Userroots() {
   return (
     <>
     <Usernavbar/>
@@ -13,4 +13,4 @@ function UserRoot() {
   )
 }
 
-export default UserRoot
+export default Userroots

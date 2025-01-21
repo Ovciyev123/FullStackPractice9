@@ -1,0 +1,76 @@
+.navbarr{
+    background-color: #a3a098;
+}
+
+.navbarr-bg{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0px;
+}
+
+.navbarr-left h2{
+
+color: white;
+}
+
+.navbarr-left span{
+
+    color: red;
+}
+
+.navbarr-right{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navvlink{
+
+    text-decoration: none;
+    color: white;
+ 
+}
+
+.navbarr-right select{
+
+    border: none;
+    outline: none;
+    background-color: #a3a098;
+    color: white;
+
+}
+
+.navvicon{
+
+    color: white;
+}
+
+.navvlink1 button{
+
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(32, 89, 112);
+    border-radius: 7px;
+    color: white;
+}
+
+.navvlink2 button{
+
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(17, 75, 17);
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navvlink2{
+
+    text-decoration: none;
+}

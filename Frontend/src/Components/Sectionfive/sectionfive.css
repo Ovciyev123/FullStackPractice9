@@ -1,0 +1,55 @@
+.sectionfive{
+
+    background-color: #F8F9FA;
+    padding: 100px;
+  
+}
+
+.sectionfive h2{
+
+    color: orange;
+    text-align: center;
+
+}
+
+.sectionfive-cards{
+
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionfive-card img{
+
+    width: 100px;
+    height: 100px;
+}
+
+.sectionfive-card{
+
+    width: 30%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sectionfive-card p{
+
+    text-align: start;
+    width: 80%;
+    color: gray;
+}
+
+.sectionfive-card button{
+
+    border: none;
+    background-color: #F8F9FA;
+    width: 100px;
+    color: orange;
+    
+}

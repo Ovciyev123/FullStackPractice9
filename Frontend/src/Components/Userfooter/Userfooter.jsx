@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaHeart, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { Link } from 'react-router'
+import "./userfooter.css"
 
 function Userfooter() {
     return (
@@ -9,14 +10,14 @@ function Userfooter() {
                 <div className="footerr-top">
                     <div className="footer-top-sec"><h3>About Us</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p></div>
-                    <div className="footer-top-sec">
+                    <div className="footer-top-sec1">
                         <h3>Quick Links</h3>
-                        <Link>Terms</Link>
-                        <Link>Policy</Link>
-                        <Link>About Us</Link>
-                        <Link>Services</Link>
-                        <Link>Testimonials</Link>
-                        <Link> Contact Us</Link>
+                        <Link className='footlink'>Policy</Link>
+                        <Link className='footlink'>About Us</Link>
+                        <Link className='footlink'>Terms</Link>
+                        <Link className='footlink'>Services</Link>
+                        <Link className='footlink'>Testimonials</Link>
+                        <Link className='footlink'> Contact Us</Link>
                     </div>
                     <div className="footer-top-sec">
                         <h3>follow us </h3>
@@ -35,14 +36,12 @@ function Userfooter() {
                         </div>
                     </div>
                 </div>
+             
                 <div className="footer-bottom">
-                    <p>Copyright ©2025 All rights reserved | This template is made with  <FaHeart/> by <Link>Colorlib</Link></p>
+                    <p>Copyright ©2025 All rights reserved | This template is made with  <FaHeart className='botfotlink' /> by <Link className='botfotlink1'>Colorlib</Link></p>
                 </div>
             </div>
-
-
-
-        </>
+     </>
     )
 }
 
