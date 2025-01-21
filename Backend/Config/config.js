@@ -4,7 +4,7 @@ import { connect } from "mongoose";
 
 config()
 
-connect(process.env.MongoDbUrl)
+connect(process.env.MongodbUrl)
 .then(()=>{
 
 
